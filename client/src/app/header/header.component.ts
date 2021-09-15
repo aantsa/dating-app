@@ -23,9 +23,6 @@ export class HeaderComponent implements OnInit {
   login() {
     this.accountService.login(this.user).subscribe(res => {
       this.router.navigateByUrl('/members');
-    }, error => {
-      console.log(error);
-      this.toastr.error(error.error);
     })
   }
 
