@@ -19,3 +19,10 @@
 		opacity: 1;
 	}
 }
+
+img {
+	max-height: 40px;
+	border: 2px solid #fff;
+	display: inline;
+	border-radius: 50%;
+}
